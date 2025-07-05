@@ -1,0 +1,30 @@
+/** Universal Styling **/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/** Colours **/
+
+:root {
+  --header: #131516;
+  --text: #707a86;
+  --purple: #723e83;
+  --green: rgb(63, 152, 145);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/** Mobile View **/
+
+/* Header */
+
+/* Hero Section */
+
+/* Image Section */
+
+/* Footer */
