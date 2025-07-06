@@ -266,3 +266,65 @@ footer::after {
   top: -10em;
   left: auto;
 }
+
+/** Tablet View **/
+
+@media screen and (min-width: 768px) {
+  .hero-image-container img {
+    width: 100%;
+  }
+
+  h1 {
+    width: 50%;
+  }
+
+  .hero-text {
+    width: 60%;
+  }
+
+  .button-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2em;
+  }
+
+  .hero-btn-1,
+  .hero-btn-2 {
+    margin: 0;
+    width: 25%;
+  }
+
+  .marker-container {
+    margin-top: 5em;
+  }
+
+  .main-image-container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: center;
+  }
+
+  .main-image-container img {
+    width: 10em;
+  }
+
+  .image-section-text {
+    margin-bottom: 14rem;
+  }
+
+  footer {
+    background-image: url("./starter-code/assets/tablet/image-footer.jpg");
+  }
+
+  .marker-2-container {
+    top: -13em;
+  }
+
+  .footer-header {
+    margin-top: 2rem;
+  }
+}
