@@ -4,15 +4,18 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif, serif;
 }
 
 /** Colours **/
 
 :root {
-  --header: #131516;
+  --header: #2e383e;
   --text: #707a86;
-  --purple: #723e83;
-  --green: rgb(63, 152, 145);
+  --purple: #9a62ac;
+  --green: #3f9891;
+  --lightGreen: #76f3e8;
+  --white: #fff;
 }
 
 body {
@@ -23,7 +26,85 @@ body {
 
 /* Header */
 
+header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-image {
+  padding: 3em 5em 0 5em;
+}
+
 /* Hero Section */
+
+.hero-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.hero-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image-container img {
+  height: auto;
+  width: 16em;
+  padding-top: 4em;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-size: bold;
+  color: var(--header);
+  padding-top: 2em;
+}
+
+.hero-text {
+  font-size: 1.1rem;
+  padding: 1.5em 2em;
+  color: var(--text);
+  line-height: 150%;
+}
+
+.hero-btn-1 {
+  padding: 1.4em 0;
+  font-size: 1.2em;
+  font-weight: bold;
+  width: 60%;
+  border-radius: 50px;
+  border: none;
+  background-color: var(--green);
+  color: #fff;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.version {
+  color: var(--lightGreen);
+}
+
+.hero-btn-2 {
+  padding: 1.4em 0;
+  font-size: 1.2em;
+  font-weight: bold;
+  width: 50%;
+  border-radius: 50px;
+  margin: 1em 0;
+  border: none;
+  background-color: var(--purple);
+  color: #fff;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.hero-btn-1:hover,
+.hero-btn-2:hover {
+  opacity: 0.8;
+}
 
 /* Image Section */
 
