@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
--Mobile View
+- Mobile View
 
 ![](./starter-code/assets/Mobile%20View.jpeg)
 
