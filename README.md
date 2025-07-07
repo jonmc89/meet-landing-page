@@ -29,6 +29,14 @@ Users should be able to:
 
 ![](./starter-code/assets/Mobile%20View.jpeg)
 
+- Tablet View
+
+![](./starter-code/assets/iPad-1751900278492.jpeg)
+
+- Desktop View
+
+![](./starter-code/assets/MacBook%20Pro-1751900278553.jpeg)
+
 ### Links
 
 - Solution URL: https://github.com/jonmc89/meet-landing-page
@@ -46,4 +54,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - https://www.frontendmentor.io/profile/jonmc89

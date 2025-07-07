@@ -252,7 +252,7 @@ footer::after {
   background-color: var(--purple);
   color: #fff;
   opacity: 0.9;
-  transition: backrgound-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .footer-version {
@@ -386,5 +386,30 @@ footer::after {
 
   .hero-btn-2 {
     width: 30%;
+  }
+
+  .main-image-container img {
+    height: auto;
+    width: 22%;
+  }
+
+  .image-section-text {
+    width: 40%;
+  }
+
+  .footer-text-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    align-items: center;
+    justify-items: center;
+  }
+
+  .footer-text {
+    text-align: left;
+  }
+
+  .footer-btn1 {
+    width: 50%;
   }
 }
